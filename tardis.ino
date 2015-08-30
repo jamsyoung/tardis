@@ -14,7 +14,7 @@ void loop() {
     int i;
 
     // pulse 50 times - 10 times is ~1:03
-    for (i = 0; i < 50; i++) {
+    for (i = 0; i < 5; i++) {
         for (in = 0; in < 6.283; in = in + 0.001) {
             out = sin(in) * 127.5 + 127.5;
             analogWrite(pin1, out);
@@ -22,10 +22,9 @@ void loop() {
         }
     }
 
-
     // then turn off for 55 minutes
-    analogWrite(pin1, LOW);
-    delay(1000 * 60 * 55);
+    /*analogWrite(pin1, LOW);
+    delay(1000 * 60 * 1);*/
 }
 
 
@@ -35,12 +34,12 @@ void nonSinPulse() {
 
     for (out = 0; out <= 255; out++) {
         delay(10);
-        analogWrite(led1, out);
+        analogWrite(pin1, out);
 
         if (out == 255) {
             for (out = 255; out > 0; out--) {
                 delay(10);
-                analogWrite(led1, out);
+                analogWrite(pin1, out);
             }
         }
     }
