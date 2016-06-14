@@ -3,12 +3,12 @@
 
 ## Contents
 
-- [Micro-controllers](#Micro-controllers)
-- [References](#References)
-- [Code examples](#Code-examples)
-  - [How to blink a light](#How-to-blink-a-light)
-  - [How to pulse a light](#How-to-pulse-a-light)
--[Bean notes](#Bean-notes)
+- [Micro-controllers](#micro-controllers)
+- [References](#references)
+- [Code examples](#code-examples)
+  - [How to blink a light](#how-to-blink-a-light)
+  - [How to pulse a light](#how-to-pulse-a-light)
+- [Bean notes](#bean-notes)
 
 
 
