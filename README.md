@@ -3,12 +3,12 @@
 
 ## Contents
 
-- Microcontrollers
-- References
-- Code examples
-  - How to blink a light
-  - How to pulse a light
-
+- [Micro-controllers](#Micro-controllers)
+- [References](#References)
+- [Code examples](#Code-examples)
+  - [How to blink a light](#How-to-blink-a-light)
+  - [How to pulse a light](#How-to-pulse-a-light)
+-[Bean notes](#Bean-notes)
 
 
 
@@ -103,3 +103,21 @@ void loop() {
     }
 }
 ```
+
+
+## Bean notes
+### General
+- `delay()` will not evaluate an expression, so don't do math in it to calculate
+  the time to delay in a human readable format.
+
+### Development
+- Install Bean Loader - https://punchthrough.com/bean/guides/everything-else/downloads/#software-downloads
+- Install Ardunio IDE - https://www.arduino.cc/en/Main/Software
+
+As easy as:
+
+1. Write code in Arduino IDE
+2. Verify code in Arduino IDE (it's a button to click)
+3. Upload code in Arduino IDE (it's another button to click)
+4. Program Skitch in Bean Loader (contextual menu item / assumes connection to
+   the Bean is good)
