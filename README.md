@@ -121,3 +121,24 @@ As easy as:
 3. Upload code in Arduino IDE (it's another button to click)
 4. Program Skitch in Bean Loader (contextual menu item / assumes connection to
    the Bean is good)
+
+
+## Spark notes (SpareCore, Particle, Electron)
+Can develop ...
+  - in the cloud - https://build.particle.io
+  - locally with the Particle Dev IDE - https://www.particle.io/dev
+
+
+### CLI info
+- https://www.particle.io/cli
+- https://docs.particle.io/reference/cli/
+- Core: https://docs.particle.io/guide/getting-started/connect/core/
+
+
+```shell
+$ npm i -g particle-cli
+$ particle login
+? Please enter your email address jmeyoung@gmail.com
+? Please enter your password ********
+> Successfully completed login!
+```
