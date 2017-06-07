@@ -3,14 +3,14 @@
 int pin1 = 0;
 
 void setup() {
-    Serial.begin(57600);
+//    Serial.begin(57600);
     pinMode(pin1, OUTPUT);
 }
 
 void loop() {
     float in, out;
     int i;
-
+Serial.println('hi');
     // pulse 5 times - about 30 seconds
     for (i = 0; i < 5; i++) {
         for (in = 0; in < 6.283; in = in + 0.001) {
